@@ -1,0 +1,43 @@
+.about
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-family: 'Segoe UI';
+}
+.about h1
+{
+    color: rgba(138, 155, 155, 0.3);
+    font-weight: 900;
+    font-size: 70px;
+}
+.about h3
+{
+    position: absolute;
+    top:70px;
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: 5px;
+    
+}
+.navbar-brand
+{
+    color: #dc3545 !important;
+    font-weight: 900;
+    
+}
+.services i
+{
+ transition-property: background-color;
+ transition-duration: 1s;
+ cursor: pointer;
+}
+.services:hover i
+{
+    background-color: cyan;
+}
+.intro , .information , .front-End , .back-End , .familiarity , .courses
+{
+    display: none;
+}
+

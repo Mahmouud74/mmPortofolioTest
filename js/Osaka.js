@@ -1,0 +1,10 @@
+$('.intro').show('3',()=>{
+    $('.information').slideDown('2')
+})
+{$('.information').mouseenter(()=>{$('.front-End').show('3',()=>{
+    $('.back-End').show('2',()=>{
+        $('.familiarity').show('2',()=>{
+            $('.courses').show('2')
+        })
+    })
+})})}
